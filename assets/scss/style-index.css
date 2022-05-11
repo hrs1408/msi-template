@@ -1,0 +1,137 @@
+:root {
+  --white-color: white;
+  --red-color: #ff0000;
+  --black-color: black;
+  --gray-color: #696969;
+  --dark-gray-color: #222222;
+}
+
+.header {
+  height: 82px;
+}
+
+.header .logo {
+  place-self: center;
+}
+
+.header .menuAction .menuAction-item {
+  margin-left: 50px;
+  height: 100%;
+}
+
+.header .menuAction .menuAction-item .btn {
+  padding: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 100%;
+  font-weight: bold;
+  font-size: 17px;
+  color: var(--gray-color);
+}
+
+.header .menuAction .menuAction-item .btn:hover {
+  color: var(--dark-gray-color);
+}
+
+.header .menuFunction .menuFunction-item {
+  margin-left: 2rem;
+  place-self: center;
+}
+
+.header .menuFunction .menuFunction-item a {
+  padding: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--gray-color);
+}
+
+.header .menuFunction .menuFunction-item a:hover {
+  color: var(--dark-gray-color);
+}
+
+.slide-home {
+  padding: 0;
+}
+
+.slide-home .carousel-indicators .active {
+  background-color: var(--red-color);
+}
+
+.products {
+  width: 100%;
+  background-color: var(--dark-gray-color);
+  padding: 5px;
+}
+
+.products .product-item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.products .product-item .product-item-img {
+  padding-left: 5px;
+}
+
+.products .product-item .product-item-text {
+  text-align: center;
+  z-index: 10;
+  position: absolute;
+  top: 10%;
+}
+
+footer footer-head {
+  border-top: var(--gray-color) solid 1px;
+}
+
+footer ul {
+  color: var(--gray-color);
+  list-style: none;
+}
+
+footer ul li {
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
+}
+
+footer ul .heading {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer .footer-item {
+  border-top: var(--gray-color) solid 1px;
+}
+
+footer .footer-item img {
+  width: 50px;
+  height: 15px;
+}
+
+footer .footer-item .copyright {
+  font-size: 13px;
+}
+
+footer .footer-item .contact ul {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+footer .footer-item .contact ul li {
+  font-size: 13px;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=style-index.css.map */
