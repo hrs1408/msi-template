@@ -67,8 +67,13 @@
 }
 
 .product-list .product-thumb {
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+
+.product-list .product-thumb a {
+  text-decoration: none;
+  color: var(--black-color);
 }
 
 .product-list .product-thumb .image {
@@ -90,6 +95,8 @@
 
 .product-list .product-thumb .description {
   border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .product-list .product-thumb .description li {
